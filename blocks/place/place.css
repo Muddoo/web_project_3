@@ -8,21 +8,21 @@
 .place {
     width: 100%;
     display: grid;
-    grid-template: auto auto / minmax(auto, 440px) auto;
+    grid-template: auto auto / minmax(auto, 440px) 1fr;
     gap: 48px 32px;
     color: var(--white);
 }
 
 @media screen and (min-width: 1200px) {
     .place {
-        grid-template: auto auto / minmax(auto, 460px) auto;
+        grid-template: auto auto / minmax(auto, 460px) 1fr;
         gap: 48px 40px;
     }
 }
 
 @media screen and (max-width: 820px) {
     .place {
-        grid-template: auto auto / minmax(auto, 340px) auto;
+        grid-template: auto auto / minmax(auto, 340px) minmax(45vw, 1fr);
         gap: 48px 28px;
     }
 }
