@@ -1,0 +1,23 @@
+.place__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
+
+.place__text:not(:first-child) {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 820px) {
+    .place__text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .place__text {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+}

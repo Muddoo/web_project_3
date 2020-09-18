@@ -1,0 +1,37 @@
+@import url('./__image/gallery__image.css');
+
+.gallery {
+    max-width: 928px;
+    margin: 92px auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(auto, 300px));
+    grid-auto-rows: 225px;
+    gap: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery {
+        max-width: 1184px;
+        grid-template-columns: repeat(4, minmax(auto, 284px));
+        grid-auto-rows: 213px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .gallery {
+        max-width: 720px;
+        grid-template-columns: repeat(2, minmax(auto, 352px));
+        grid-auto-rows: 264px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .gallery {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 216px;
+        gap: 12px;
+    }
+}
