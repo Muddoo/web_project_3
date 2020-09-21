@@ -5,6 +5,8 @@
 * Figma
 * Images
 
+### [Click To View](https://muddoo.github.io/web_project_3/)
+
 **Intro**
 
 This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes..
@@ -13,7 +15,6 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 Creating modern webpage using html & css that fit all screen sizes desktop tablet and phones.
 
-## [Click To View](https://muddoo.github.io/web_project_3/)
 
 ## Contents
 
